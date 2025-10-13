@@ -4,7 +4,7 @@ set -e
 set -u
 set -o pipefail
 
-for d in * 
+find ./ -maxdepth 1 | while read file;  
 do
-echo "$d"
+echo "$file"
 done
