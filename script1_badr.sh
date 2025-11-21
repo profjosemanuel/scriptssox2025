@@ -14,9 +14,9 @@ check_command() {
 	   return 0
   }
 
-  for cmd in "$0"; do
+for cmd in "$0"; do
 	check_command "$cmd"
-  done
+done
 
-  echo "totes les comandes estan disponibles."
-¡
+echo "totes les comandes estan disponibles."
+
