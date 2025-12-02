@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+set -u
+set -o pipefail
+
+if [ -d $1 ];then
+     echo " ${1} es un directorio "
+fi
