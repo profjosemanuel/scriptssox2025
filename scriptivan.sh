@@ -8,6 +8,6 @@ se encuentra en el" >&2
  fi
  return 0
 }
-#check_cmd git
+check_cmd git
 #check_cmd docker
 check_cmd aws
